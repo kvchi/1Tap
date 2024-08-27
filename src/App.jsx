@@ -11,6 +11,7 @@ import Company from './pages/Company';
 import Compliance from './pages/Compliance';
 import Services from './pages/Services';
 import Money from './pages/Money';
+import { Sidebar } from './components'
 
 export default function App() {
   useEffect(() => {
@@ -25,7 +26,6 @@ export default function App() {
     
     return (
       <main >
-        
         <Outlet />
         
       </main>

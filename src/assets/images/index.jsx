@@ -15,6 +15,13 @@ import suitcase from './suitcase.png'
 import lamp from './lamp.png'
 import setting from './setting.png'
 import frame from './frame.svg'
+import login from './login.svg'
+import notification from './notification.svg'
+import frame1 from './frame1.svg'
+import group from './group.svg'
+import bot from './bot.svg'
+import setting1 from './setting1.svg'
+import setting2 from './setting2.svg'
 
 export {
     logo,
@@ -33,5 +40,12 @@ export {
     suitcase,
     lamp,
     setting,
-    frame
+    frame,
+    login,
+    notification,
+    frame1,
+    group,
+    bot,
+    setting1,
+    setting2
 }

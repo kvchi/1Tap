@@ -1,7 +1,10 @@
 import React from 'react'
+import { Sidebar } from '../components'
 
 export default function Compliance() {
   return (
-    <div>Compliance</div>
+    <div>
+      <Sidebar />
+    </div>
   )
 }

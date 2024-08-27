@@ -14,18 +14,18 @@ export default function Dashboard() {
     <>
       <main className="flex bg-gray-200 h-full">
         <Sidebar />
-        <section className="flex flex-1 flex-col w-full pl-14 md:pl-60 pr-6 pt-2">
-          <div className="flex flex-col md:flex-row justify-between items-center mt-4 mb-4">
+        <section className="flex flex-1 flex-col w-full pl-14 md:pl-6 pr-2">
+          <div className="flex flex-col md:flex-row items-center gap-10">
             <Search />
-            <div className="flex mt-4 md:mt-0">
-              <BookFreee />
+              <div className="flex min-w-full gap-4">
+              <BookFreee /> 
               <Login />
-            </div>
+              </div>
           </div>
           <div className="mt-4">
             <GetSTarted />
           </div>
-          <div className="flex flex-col md:flex-row  gap-6 mt-6">
+          <div className="flex flex-col md:flex-row  gap-6 mt-4">
             <Cards />
             <SmallCard />
           </div>

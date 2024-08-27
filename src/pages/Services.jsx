@@ -1,7 +1,10 @@
 import React from 'react'
+import { Sidebar } from '../components'
 
 export default function Services() {
   return (
-    <div>Services</div>
+    <div>
+      <Sidebar />
+    </div>
   )
 }

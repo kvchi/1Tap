@@ -1,11 +1,13 @@
 import React from 'react'
-import { frame } from '../assets/images'
+import { bot} from '../assets/images'
 
 export default function Support() {
   return (
-    <div className='flex items-center bg-primary rounded-full pr-3 w-fit hover:cursor-pointer hover:translate-x-1 transition-all duration-300'>
-  <img src={frame} alt="Support Icon" className='w-10 md:w-14' />
-  <p className='text-sm md:text-xl font-medium text-white'>Support</p>
-</div>   
-  )
+    <div className="group flex items-center bg-primary rounded-full pr-3 hover:cursor-pointer hover:drop-shadow-xl hover:bg-[#6AADF0] hover:border hover:border-white transition-all duration-300 p-1 gap-2 group-hover:shadow-inner-glow">
+    <div className="w-8 h-8 p-2 bg-white rounded-full transition-colors duration-300 group-hover:bg-[#6AADF0]/50 border box-content  ">
+      <img src={bot} alt="Support Icon" className="w-full h-full" />
+    </div>
+    <p className="text-sm md:text-xl font-medium text-white group-hover:animate-vibrate group-hover:text-black pr-3">Support</p>
+  </div>
+  );
 }

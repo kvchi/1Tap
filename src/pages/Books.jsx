@@ -1,7 +1,10 @@
 import React from 'react'
+import { Sidebar } from '../components'
 
 export default function Books() {
   return (
-    <div>Books</div>
+    <div>
+      <Sidebar />
+    </div>
   )
 }
