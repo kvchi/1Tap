@@ -56,15 +56,15 @@ export default function Sidebar() {
         </nav>
         {/* Footer Section */}
         <div className="mt-auto">
-          <div className="flex items-center">
+          <div className="flex items-center ml-4">
             <img
               src={buildings}
               alt="Building"
-              className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
+              className="w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14"
             />
 
             <div className="md:flex items-center hidden">
-              <h2 className="font-semibold text-xs md:text-sm">X.Y.Z LLC</h2>
+              <h2 className="font-bold text-xs md:text-xl">X.Y.Z LLC</h2>
               <IoIosArrowDown className="ml-2 text-xs sm:text-sm md:text-base" />
             </div>
           </div>
