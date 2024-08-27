@@ -19,7 +19,7 @@ export default function SmallCard() {
            <button className='py-1 px-3 md:py-2 md:px-6 bg-blue-50 rounded-lg  group-hover:bg-white/80 transition-all duration-300'>
                 <p className='text-xs md:text-xl whitespace-nowrap md:font-normal'>Know More</p>
             </button>
-            <button className='py-1 px-3 md:py-2 md:px-6 bg-black/90 rounded-lg hover:bg-primary transition-all duration-300'>
+            <button className='py-1 px-3 md:py-2 md:px-9 bg-black/90 rounded-lg hover:bg-primary transition-all duration-300'>
                 <p className='text-xs md:text-xl whitespace-nowrap md:font-normal text-white'>Buy Now</p>
             </button>
           
