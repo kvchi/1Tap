@@ -14,5 +14,9 @@ export default {
     },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+      addVariant('hover-override', '&:hover:not(.group:hover)');
+    }
+  ],
 }

@@ -19,7 +19,7 @@ export default function Cards() {
         </p>
         <div className='flex pt-2 md:pt-10 gap-2 justify-between mb-6 items-center'>
            <div className='flex gap-3 '>
-           <button className='py-1 px-3 md:py-2 md:px-6 bg-blue-50 rounded-lg hover:bg-primary group-hover:bg-white/80 transition-all duration-300'>
+           <button className='py-1 px-3 md:py-2 md:px-6 bg-blue-50 rounded-lg hover-override:bg-blue-300 group-hover:bg-white/80  transition-all duration-300'>
                 <p className='text-xs md:text-xl whitespace-nowrap md:font-normal'>Know More</p>
             </button>
             <button className='py-1 px-3 md:py-2 md:px-9 bg-black/90 rounded-lg hover:bg-primary transition-all duration-300'>
